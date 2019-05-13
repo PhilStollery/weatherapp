@@ -13,7 +13,7 @@ namespace WeatherMonitor.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View(new HomeViewModel());
         }
 
         public IActionResult About()
