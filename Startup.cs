@@ -33,7 +33,6 @@ namespace WeatherMonitor
             });
 
             services.AddApplicationInsightsTelemetry(); // Add app insights
-            services.AddServiceProfiler(); // Add this line of code to Enable Profiler
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
