@@ -32,7 +32,7 @@ namespace WeatherMonitor
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddApplicationInsightsTelemetry(); // Add app insights
+            //services.AddApplicationInsightsTelemetry(); // Add app insights
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
